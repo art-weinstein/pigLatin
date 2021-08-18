@@ -28,6 +28,10 @@ Test: "It will check that the word is a vowel."
 Code: pigLatin("a");
 Expected Output: `true`
 
+Test: "It will check first letter of word is a vowel and add "way" to the end."
+Code: pigLatin("ah");
+Expected Output: "ahway"
+
 
 Describe: letterVowel()
 
