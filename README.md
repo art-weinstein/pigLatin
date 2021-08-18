@@ -15,3 +15,15 @@
 2. Program will check the first letters in words for consonants inlcuding "qu".
 3. If "qu" is found in the first consonants, any cosonants in front of "qu" will be added to the end of the word.
 4. Program will then add "ay" to the end of the word.
+
+## Test
+
+Describe: pigLatin()
+
+Test: "It will add 'way' to the end of words that begin with a vowel."
+Code: pigLatin("a");
+Expected Output: "away"
+
+Test: "It will check that the word is a vowel."
+Code: pigLatin("a");
+Expected Output: `true`
