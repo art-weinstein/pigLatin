@@ -38,3 +38,10 @@ Describe: letterVowel()
 Test: "It will check that the first letter of word is a vowel."
 Code: letterVowel("ah");
 Expected Output: `true`
+
+
+Describe: space()
+
+Test: "It will check that there is a space within the string."
+Code: space("he is");
+Expected Output: `true`
