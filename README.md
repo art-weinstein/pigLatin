@@ -40,8 +40,8 @@ Code: letterVowel("ah");
 Expected Output: `true`
 
 
-Describe: space()
+Describe: letterConsonant()
 
-Test: "It will check that there is a space within the string."
-Code: space("he is");
+Test: "It will check that the word is a consonant."
+Code: letterConsonant("b");
 Expected Output: `true`
