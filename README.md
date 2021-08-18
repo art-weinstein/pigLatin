@@ -29,8 +29,8 @@ Code: pigLatin("a");
 Expected Output: `true`
 
 Test: "It will check first letter of word is a vowel and add "way" to the end."
-Code: pigLatin("ah");
-Expected Output: "ahway"
+Code: pigLatin("he is");
+Expected Output: "he isway"
 
 
 Describe: letterVowel()
