@@ -32,6 +32,13 @@ Test: "It will check first letter of word is a vowel and add "way" to the end."
 Code: pigLatin("he is");
 Expected Output: "he isway"
 
+Test: "It will check if first letter of word is a consonant and add first letter and "ay" to the end."
+Code: pigLatin("he is");
+Expected Output: "ehay isway"
+
+Test: "It will check if first two letters are "qu" and add "qu" and "ay" to the end."
+Code: pigLatin("quick");
+Expected Output: "ickquay"
 
 Describe: letterVowel()
 
@@ -44,4 +51,11 @@ Describe: letterConsonant()
 
 Test: "It will check that the word is a consonant."
 Code: letterConsonant("b");
+Expected Output: `true`
+
+
+Describe: quConsonant()
+
+Test: "It will check if first two letters are "qu"."
+Code: quConsonant("qu");
 Expected Output: `true`
